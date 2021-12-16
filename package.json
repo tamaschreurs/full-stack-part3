@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rmdir /s /q build && cd D:\\Programmeren\\full-stack-open-submissions\\part2\\phonebook && npm run build && Xcopy /e /i build D:\\Programmeren\\full-stack-open-part3\\build",
     "deploy": "git push heroku main",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",
     "logs:prod": "heroku logs --tail"
   },
   "author": "",
