@@ -10,7 +10,7 @@ const personSchema = new mongoose.Schema({
   number: {
     type: String,
     required: true,
-    match: /^[+]*[(]{0,1}(\d[\s]?[-\./()]?[\s]?){8,}$/,
+    match: /^[+]*[(]{0,1}(\d[\s]?[-./()]?[\s]?){8,}$/,
   },
 });
 
